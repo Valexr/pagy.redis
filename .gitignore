@@ -1,0 +1,12 @@
+node_modules
+app/server/*
+app/client/build
+# app/redis
+# app/json
+
+*-lock.*
+*.map
+app.js
+
+.DS_Store
+.env

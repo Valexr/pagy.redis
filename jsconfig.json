@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ],
+            "@api/*": [
+                "src/client/api/*"
+            ],
+            "@cmp": [
+                "src/client/components/index.js"
+            ],
+            "@pages/*": [
+                "src/client/pages/*"
+            ],
+            "@routes": [
+                "src/client/routes/index.js"
+            ],
+            "@utils": [
+                "src/client/utils/index.js"
+            ],
+            "@spectre/*": [
+                "node_modules/spectre.css/src/*"
+            ]
+        }
+    }
+}
